@@ -26,5 +26,8 @@ Template.layout.helpers({
 });
 
 Template.layout.rendered = function () {
-    IonSideMenu.snapper.settings({disable: 'right'});
+
+IonSideMenu.snapper.settings({disable: 'right'});
+/* ,flickThreshold: 70,minDragDistance:10}); */
 };
+

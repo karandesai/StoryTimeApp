@@ -16,7 +16,6 @@
 	{{#ionView}}
 		{{#ionContent class="padding"}}
 			{{#with story}}
-				<div class="list card">
 					{{#ionItem}}
 						{{#with author}}
 							Author
@@ -38,14 +37,14 @@
 							<p>Last edited by {{lastEditedBy}} {{lastEditedTime}}</p>
 						{{/if}}
 					{{/ionItem}}
-				</div>
-				<div class="list card padding">
-					{{#if text}}
-						<p class="storyFont">{{text}}</p>
-					{{else}}
-						<p class="storyPlaceholder">Be the first to add to this story!</p>
-					{{/if}}
-				</div>
+					{{#ionItem class="storyFont"}}
+						{{#if text}}
+							{{text}}
+						{{else}}
+						     <p class="storyPlaceholder">Be the first to add to this story!</p>
+						{{/if}}
+					{{/ionItem}}
+
 			{{/with}}
 		{{/ionContent}}
 		{{#ionFooterBar class="bar-dark"}}

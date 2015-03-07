@@ -101,10 +101,17 @@ color: white !important;
   background:#fdfdfd;
 }
 
+.item-content{
+    white-space: normal !important;
+    /* width: 200px !important; */
+ }
+
 .storyFont {
-  font-size: 18px;
-  color:#000000;
-  line-height: 120%;
+  font-size: 18px !important;
+  color:#000000 !important;
+  line-height: 120% !important;
+  white-space: normal !important;
+
   /* font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;  */
 }
 
