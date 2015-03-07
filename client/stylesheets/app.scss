@@ -85,6 +85,14 @@ color: white !important;
 background:#b1b1b1 !important;
 }
 
+input
+{
+  	-moz-border-radius: 0px;
+  	border-radius: 0px;
+    border:solid 1px black;
+    padding:5px;
+}
+
 
 .noBorder
 {
@@ -107,10 +115,11 @@ color: white !important;
  }
 
 .storyFont {
-  font-size: 18px !important;
+  font-size: 18px ;
   color:#000000 !important;
   line-height: 120% !important;
   white-space: normal !important;
+  text-align: justify;
 
   /* font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;  */
 }
@@ -247,6 +256,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', end
 
 .footerResize h2, h4 {
   display: inline;
+  font-weight:300 !important;
 }
 
 .line-clamp {

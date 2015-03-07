@@ -37,9 +37,9 @@
 							<p>Last edited by {{lastEditedBy}} {{lastEditedTime}}</p>
 						{{/if}}
 					{{/ionItem}}
-					{{#ionItem class="storyFont"}}
+					{{#ionItem}}
 						{{#if text}}
-							{{text}}
+							<p class="storyFont">{{text}}</p>
 						{{else}}
 						     <p class="storyPlaceholder">Be the first to add to this story!</p>
 						{{/if}}
@@ -54,8 +54,8 @@
 						{{> storySubmit}}
 					{{else}}	
 						<div class="row row2">
-							<div class="col col2 col-80">
-								<p>  Please log in to add to the story </p>	
+							<div class="col col2 col-80 ">
+								<p class="padding">  Please log in to add to the story </p>	
 							</div>
 							<div class="col col2 col-20">
 								<div class="col button button-light button-outline" data-ion-modal="_loginModal">
@@ -70,7 +70,7 @@
 						{{> ionIcon icon="thumbsup"}} <sup>{{votes}}</sup>
 					</button>
 					<span class="footerResize">
-						<h4 class="light smallText">A</h4>
+						<h4 class="light smallText">A </h4>
 						<h2 class="light bigText"> | A</h2>
 					</span>
 					<button class="share button button-clear footer-button-right">

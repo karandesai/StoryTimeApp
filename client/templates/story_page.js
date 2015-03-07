@@ -43,6 +43,7 @@ Template.storyPage.events({
 		fontSize = fontInt + 'px';	
 		if(fontInt < 25)
 			$('.storyFont').css('font-size',fontSize);
+		console.log(fontInt);
 		
 	},
 	
